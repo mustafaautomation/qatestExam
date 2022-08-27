@@ -1,0 +1,27 @@
+{
+  "name": "qatestExam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber-report.json",
+    "report": "node report.js"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.1.2",
+    "chai-shallow-deep-equal": "^1.4.6",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^5.5.0",
+    "cucumber-junit": "^1.7.1",
+    "cucumber-pretty": "^1.4.4",
+    "custom-cucumber-report-generator": "^0.0.4",
+    "expect-puppeteer": "^3.3.0",
+    "puppeteer": "^13.1.1",
+    "puppeteer-cucumber-js": "^1.6.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
